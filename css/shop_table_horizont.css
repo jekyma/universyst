@@ -1,16 +1,7 @@
 /*--------------- start of table horizontal SECTION---------------*/
-#products a>img {
+#products table>a>img {
 	max-width: 100px;
 	max-height: 85px;
-}
-}
-#products table {
-    width: 100%;
-}
-#products td{
-	height: 50px;
-	padding: 10px;
-	vertical-align: middle;
 }
 #products table.price{
 	color: #413839;
@@ -23,13 +14,7 @@
 	padding: 14px 0px 0px 0px;
 	border-radius: 6px;
 }
-#products .name h3{
-	vertical-align: middle;
-	display: inline-block;
-	overflow: hidden;
-	font-size: 1.3em;
-}
-#products .price {
+#products table.price {
 	color: #413839;
 	font-size: 1.6em;
 	font-weight: 600;
@@ -39,11 +24,11 @@
 	text-align: center;
 	line-height: 1;
 }
-#products .price small{
+#products table.price small{
 	font-size: 80%;
 	font-weight: 400;
 }
-#products td.stock{
+#products table>td.stock{
 	font-size: 1em;
 	width: 10%;
 }
