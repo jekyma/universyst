@@ -1,0 +1,140 @@
+#products .image-container {
+	margin-bottom: 4px;
+}
+#products .thumbnail-product a>img{
+	max-height:130px;
+	min-height: 130px;
+	margin-bottom: 7px;
+	max-width:100%;
+}
+#products .thumbnail a>img, .thumbnail>img{
+	max-height: 130px;
+	min-height: 130px;
+	max-width: 100%;
+}
+#products .container {
+/*	margin-top: 15px;
+	min-width: 300px;*/
+}
+/*---------------CAPTION SECTION---------------*/
+#products .name h3 {
+	font: 500 14px 'Roboto', Helvetica, Arial, sans-serif;
+	/* line-height: 21px;*/
+	/* background: #f7f7f7;*/
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px 0px 2px 0px;
+	/* padding-top: 10px;*/
+	/* margin: 10px 10px 10px 10px;*/
+}
+#products .thumbnail.caption {
+ 	padding: 0px 0px;
+}
+#products .price {
+	color: #413839;
+	font-size: 1.6em;
+	font-weight: 600;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: right;
+	/*background-color: #FFFFCC;*/
+	text-align: center;
+	padding: 14px 0px 0px 0px;
+	border-radius: 6px;
+}
+#products span.in-stock {
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 5px;
+	position: absolute;
+	top: -7px;
+	right: 2px;
+	color: #007F00;
+	text-align: right;
+}
+#products span.out-of-stock {
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 5px;
+	position: absolute;
+	top: -7px;
+	right: 2px;
+	color: #585858;
+	text-align: right;
+}
+#products .product-actions {
+	position: relative;
+	color: #fff;
+	/*display: table;*/
+	width: 100%;
+	overflow: hidden;
+	width: 65px;
+	background: #f5791f;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	border-radius: 8px;
+	margin: 7px;
+}
+#products .product-actions>span.current {
+	width: auto;
+}
+#products span.add-to-cart {
+	font-style: italic;
+	font-size: 13px;
+	background: #f5791f;
+}
+#products .product-actions>span {
+	position: relative;
+	cursor: pointer;
+	padding: 0px 0 0 0px;
+	display: inherit;
+}
+#products span.add-to-cart .icons {
+	margin-right: 8px;
+}
+#products .glyphicon {
+	margin: 5px 5px 0px 5px;
+	font-size: 25px;
+	text-decoration: none;
+	top: 0px;
+}
+#products .product-actions .far {
+	margin: 5px 5px 0px 5px;
+	font-size: 18px;
+	text-decoration: none;
+	top: 0px;
+}
+#products .action-wrapper {
+  	font-size: 20px;
+}
+#products .action-name {
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+}
+#products .thumbnail .caption {
+	padding: 0px;
+}
+#products .name {
+	background: #f7f7f7;
+	min-height: 90px;
+	max-height: 90px;
+	padding: 0px 10px;
+}
+#products .name p{
+	overflow: hidden;
+	vertical-align: middle;
+	display: inline-block;
+}
+#products span.description{
+	vertical-align: middle;
+	display: inline-block;
+	overflow: hidden;
+}
+#products .footer {
+	position: relative;
+	margin: 4%;
+}
+/*--------------- END OF CAPTION SECTION---------------*/
