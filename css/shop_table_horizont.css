@@ -3,8 +3,6 @@
 	max-width: 100px;
 	max-height: 85px;
 }
-#products table, th, td {
-   /*border: 1px solid black;*/
 }
 #products table {
     width: 100%;
@@ -21,7 +19,6 @@
 	margin-top: 0px;
 	margin-bottom: 0px;
 	float: right;
-	/*background-color: #FFFFCC;*/
 	text-align: center;
 	padding: 14px 0px 0px 0px;
 	border-radius: 6px;
