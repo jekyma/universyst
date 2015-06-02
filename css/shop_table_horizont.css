@@ -3,16 +3,20 @@
 	max-width: 100px;
 	max-height: 85px;
 }
-#products table td.price h3{
+#products table td h3.price{
 	color: #413839;
 	font-size: 1.3em;
 	font-weight: 600;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	text-align: center;
+	text-align: right;
 	padding: 0px 0px 0px 0px;
 	line-height: 1;	
 	min-width: 112px;
+}
+#products table .name h3{
+	font-size: 16px;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 #products table h3.price small{
 	font-size: 80%;
@@ -32,3 +36,69 @@
 #products table td {
 	vertical-align: middle;
 }
+
+/*__________________________________________________________*/
+/*__________________________________________________________*/
+
+#products .thumbnail a>img, .thumbnail>img{
+	max-height: 130px;
+	min-height: 130px;
+	max-width: 100%;
+}
+#products .thumbnail .image-container{
+	padding-bottom: 5px;
+}
+/*---------------CAPTION SECTION---------------*/
+#products .thumbnail .name h3 {
+	font-size: 1.3em;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	margin: 0px;
+	padding: 0px 0px 2px 0px;
+}
+#products .thumbnail .name {
+	background-color: #E8E8E8;
+	min-height: 110px;
+	max-height: 110px;
+	padding: 0px 10px;
+	overflow: hidden;
+}
+#products .thumbnail span.description{
+	vertical-align: middle;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 1em;
+}
+#products .thumbnail .caption {
+ 	padding: 0px 0px;
+}
+#products .thumbnail .price {
+	color: #413839;
+	font-size: 1.3em;
+	font-weight: 600;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: right;
+	text-align: center;
+	padding: 14px 0px 0px 0px;
+	border-radius: 6px;
+}
+#products .thumbnail span.stock.in-stock, #products .thumbnail span.stock.out-of-stock {
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 5px;
+	position: absolute;
+	top: -7px;
+	right: 2px;
+	color: #007F00;
+	text-align: right;
+}
+#products .thumbnail span.stock.out-of-stock {
+	color: #585858;
+}
+#products .thumbnail .footer {
+	position: relative;
+	margin: 4%;
+}
+/*--------------- END OF CAPTION SECTION---------------*/
