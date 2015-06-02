@@ -3,7 +3,7 @@
 	max-width: 100px;
 	max-height: 85px;
 }
-#products table td.price{
+#products table td.price h3{
 	color: #413839;
 	font-size: 1.3em;
 	font-weight: 600;
@@ -13,7 +13,6 @@
 	padding: 0px 0px 0px 0px;
 	line-height: 1;	
 	min-width: 112px;
-}
 }
 #products table h3.price small{
 	font-size: 80%;
